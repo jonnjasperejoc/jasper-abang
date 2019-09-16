@@ -1,0 +1,164 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+}
+
+li.lastChild.nav-item {
+    padding: 0 0 0 10px;
+}
+
+h4.h4-no-subtext {
+    padding: 20px 0 15px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#most-searched-places .media,
+#most-popular-and-trusted-vehicle-owners .media {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+#most-searched-places .media .name {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#most-searched-places .ave-price {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    top: calc(100% - 55px);
+    right: 25px;
+    text-align: right;
+    text-shadow: 1px 1px #000;
+}
+
+#most-searched-places .place .name {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px 0 15px;
+    text-shadow: 1px 1px #000;
+}
+
+#most-popular-and-trusted-vehicle-owners {
+    margin-top: 20px;
+}
+
+#most-popular-and-trusted-vehicle-owners .place .name .veh-count {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0;
+    text-shadow: 1px 1px #000;
+}
+
+#searchbox-label {
+    padding: 15px 0 15px 0;
+}
+
+#content {
+    padding: 20px 0;
+}
+
+#result {
+    position: absolute;
+    width: calc(100% - 40.5px);
+    z-index: 1;
+    display: none;
+}
+
+#result .list-group-item {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.form-control,
+.btn {
+    font-size: 14px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 1rem 1rem 5px 1rem;
+    background-color: #f8f9fa;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.app-logo {
+    max-width: 150px;
+}
+
+.navbar {
+    padding: 0.5rem 0;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.header,
+#footer {
+    background-color: #00b2a0;
+}
+
+.bg-light {
+    background-color: #00b2a0 !important;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+    font-size: 14px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+.interior-page {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a.nav-link {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content form {
+    margin-top: 0;
+}
